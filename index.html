@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message for You</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #fff;
+            text-align: center;
+        }
+        video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        .message {
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            color: #ff6b6b;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop>
+        <source src="flower-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="message">
+        <h1>Hai Sayang</h1>
+        <p>I nak minta maaf sebab I sedar I buat salah.</p>
+        <p>I tak nak ego, sebab I tahu benda ni penting untuk kita.</p>
+        <p>I betul-betul menyesal dan I akan cuba untuk tak ulang lagi.</p>
+        <p>Harap you boleh maafkan I, sayang.</p>
+        <p>I hargai you sangat.</p>
+    </div>
+</body>
+</html>
